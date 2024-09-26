@@ -16,6 +16,7 @@ local lplr = players.LocalPlayer
 local entityadded = Instance.new("BindableEvent")
 local entityremoved = Instance.new("BindableEvent")
 local entityupdated = Instance.new("BindableEvent")
+
 do
     entity.entityAddedEvent = {
         Connect = function(self, func)
